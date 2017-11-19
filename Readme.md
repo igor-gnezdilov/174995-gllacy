@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Igor Gnezdilov](https://up.htmlacademy.ru/htmlcss/19/user/174995).
-* Наставник: [Igor Gnezdilov](https://up.htmlacademy.ru/htmlcss/19/user/174995).
+* Наставник: [no mentor].
 
 ---
 
