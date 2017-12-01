@@ -9,9 +9,9 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<input type="radio" id="btn-one" name="toggle" checked>
-	<input type="radio" id="btn-two" name="toggle">
-	<input type="radio" id="btn-three" name="toggle">
+	<input class="toggle-wrapper" type="radio" id="btn-one" name="toggle" checked>
+	<input class="toggle-wrapper" type="radio" id="btn-two" name="toggle">
+	<input class="toggle-wrapper" type="radio" id="btn-three" name="toggle">
 	<div class="site-wrap">
 		<header class="main-header">
 			<div class="container">
@@ -72,6 +72,7 @@
 		<main>
 			<div class="container">
 				<section class="slider">
+                    <h2 class="visually-hidden">Слайдер</h2>
 					<div class="slide slide-one">
 						<h2>Крем-брюле и пломбир с малиновым джемом</h2>
 						<a class="btn slide-btn" href="#">Давайте оба!</a>
@@ -85,9 +86,9 @@
 						<a class="btn slide-btn" href="#">Давайте оба!</a>
 					</div>
 					<div class="slide-controls">
-						<label for="btn-one"></label>
-						<label for="btn-two"></label>
-						<label for="btn-three"></label>
+						<label class="slider-switches-toggle" for="btn-one">Первый слайд - Крем-брюле и пломбир с малиновым джемом</label>
+						<label class="slider-switches-toggle" for="btn-two">Второй слайд - Шоколадный пломбир и лимонный сорбет</label>
+						<label class="slider-switches-toggle" for="btn-three">Третий слайд - Пломбир с помадкой и клубничный щербет</label>
 					</div>
 				</section>
 
@@ -190,7 +191,7 @@
 						<div class="subscription-wrap">
 							<h2 class="visually-hidden">Рассылка</h2>
 							<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-							<form action="#" method="post">
+							<form class="subscription-subs-form" action="#" method="post">
 								<label class="visually-hidden" for="email">Электронная почта</label>
 								<input type="email" name="email" id="email" placeholder="Электронная почта">
 								<button class="btn subscription-btn" type="submit">Отправить</button>
@@ -209,7 +210,7 @@
 					<p class="address-second-title">Для заказов по телефону:</p>
 					<p class="address-number">8 812 450-25-25</p>
 					<p class="address-time">(с 10 до 20 ежедневно)</p>
-					<a class="btn address-btn" href="#">Форма обратной связи</a>
+					<a class="btn address-btn">Форма обратной связи</a>
 				</div>
 			</div>
 		</main>
